@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    background-color:#793D00;
+}
+
+header img{
+    max-width: 100%;
+    width: 100px;
+    padding-left: 25px;
+}
+
+header div{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+#welcome{
+    justify-content: center;
+    padding-right: 40px;
+}
+
+nav{
+    display: flex;
+    background-color:  #9D642A;
+    justify-content: space-around;
+    font-size: larger;
+    border: solid;
+    border-width: 0.3px;
+    border-color: black;
+}
+
+nav a{  
+    flex-grow: 1;
+    border: solid;
+    border-width: 0.3px;
+    border-color: black;
+    text-align: center;
+}
