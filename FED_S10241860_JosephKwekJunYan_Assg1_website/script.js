@@ -1,0 +1,79 @@
+let imageArray = []
+imageArray[0] = "Image/oxfords.jpg";
+imageArray[1] = "Image/black-monk-strap.jpg";
+imageArray[2] = "Image/Penny-Loafer.jpg";
+imageArray[3] = "Image/brogue.jpeg";
+
+let myImg = document.getElementById("change");
+let name1 = document.getElementById("name1")
+let name2 = document.getElementById("name2")
+
+let i = 0;
+
+//This function will make change image every 2.5seconds and will display correct shoe name
+setInterval(autoImg,2500);
+
+function autoImg(){
+    if (i === (imageArray.length-1)){
+        i=0
+    }
+    else{
+        i++
+    }
+    myImg.src = imageArray[i]
+    //Code below is to change the names to be same as shoe
+    if (i === 1){
+        name1.innerText = "Monk Strap"
+        name2.innerText = "Monk Strap"
+    }
+    else if(i===2){
+        name1.innerText = "Loafer"
+        name2.innerText = "Loafer"
+    }
+    else if (i===3){
+        name1.innerText = "Brogue"
+        name2.innerText = "Brogue"
+    }
+    else if (i===0){
+        name1.innerText = "Oxfords"
+        name2.innerText = "Oxfords"
+    }
+}
+
+//This function is to allow users to press buttons to go to previous or next image
+function changeImg(change){
+    if (change === "next"){
+        if (i === (imageArray.length-1)){
+            i = 0
+        }
+        else{
+            i++
+        }
+    }
+    else if (change ==="prev"){
+        if (i===0){
+            i = (imageArray.length-1)
+        }
+        else{
+            i--
+        }
+    }
+    myImg.src = imageArray[i]
+    //Code below is to change the names to be same as shoe
+    if (i === 1){
+        name1.innerText = "Monk Strap"
+        name2.innerText = "Monk Strap"
+    }
+    else if(i===2){
+        name1.innerText = "Loafer"
+        name2.innerText = "Loafer"
+    }
+    else if (i===3){
+        name1.innerText = "Brogue"
+        name2.innerText = "Brogue"
+    }
+    else if (i===0){
+        name1.innerText = "Oxfords"
+        name2.innerText = "Oxfords"
+    }
+}

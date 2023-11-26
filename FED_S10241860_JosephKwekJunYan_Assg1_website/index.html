@@ -16,14 +16,53 @@
             <h1>Welcome to <span style="font-family: 'Cinzel', serif; padding-left: 5px; padding-right: 5px; color:antiquewhite;">TheRoyales</span> Official Website</h1>
         </div>
     </header>
+
     <nav>
         <a href="index.html">Home</a>
         <a href="ourProduct.html">Our Product</a>
         <a href="aboutUs.html">About Us</a>
         <a href="contactUs.html">Contact Us</a>
     </nav>
-    <section></section>
-    <section></section>
-    <footer></footer>
+
+    <section id="section1">
+        <img src="Image/ShoeCollection.jpg" alt="Shoes" style="opacity: 0.75;">
+        <h2>Shoes of the Highest Quality <br> ~Fit for Royality~</h2>
+    </section>
+
+    <section id="section2">
+        <div id="sideshow">
+            <p id="name1">Oxford</p>
+            <button onclick="changeImg('prev')"><</button>
+            <img src="Image/oxfords.jpg" id="change">
+            <button onclick="changeImg('next')">></button>
+            <p id="name2">Oxford</p>
+        </div>
+    </section>
+
+    <footer>
+        <section>
+            <p>Useful links</p>
+            <a href="index.html">Home</a>
+            <a href="ourProduct.html">Our Product</a>
+            <a href="aboutUs.html">About Us</a>
+            <a href="contactUs.html">Contact Us</a>
+        </section>
+        <section>
+            <p>Subscribe to our newsletter</p>
+            <form>
+                <input type="email" name="email" placeholder="Enter Email" style="display: block; margin: auto;">
+                <br>
+                <input type="button" value="Submit">
+            </form>
+        </section>
+        <section>
+            <p>Follow Our Socials</p>
+            <a href="">Facebook</a>
+            <a href="">Twitter</a>
+            <a href="">Instagram</a>
+        </section>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
