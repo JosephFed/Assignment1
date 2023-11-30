@@ -5,8 +5,10 @@ imageArray[2] = "Image/Penny-Loafer.jpg";
 imageArray[3] = "Image/brogue.jpeg";
 
 let myImg = document.getElementById("change");
-let name1 = document.getElementById("name1")
-let name2 = document.getElementById("name2")
+
+let name1 = document.getElementById("name1");
+let name2 = document.getElementById("name2");
+
 
 let i = 0;
 
@@ -23,20 +25,20 @@ function autoImg(){
     myImg.src = imageArray[i]
     //Code below is to change the names to be same as shoe
     if (i === 1){
-        name1.innerText = "Monk Strap"
-        name2.innerText = "Monk Strap"
+        name1.textContent = "Monk Strap"
+        name2.textContent = "Monk Strap"
     }
     else if(i===2){
-        name1.innerText = "Loafer"
-        name2.innerText = "Loafer"
+        name1.textContent = "Loafer"
+        name2.textContent = "Loafer"
     }
     else if (i===3){
-        name1.innerText = "Brogue"
-        name2.innerText = "Brogue"
+        name1.textContent = "Brogue"
+        name2.textContent = "Brogue"
     }
     else if (i===0){
-        name1.innerText = "Oxfords"
-        name2.innerText = "Oxfords"
+        name1.textContent = "Oxfords"
+        name2.textContent = "Oxfords"
     }
 }
 
@@ -61,19 +63,19 @@ function changeImg(change){
     myImg.src = imageArray[i]
     //Code below is to change the names to be same as shoe
     if (i === 1){
-        name1.innerText = "Monk Strap"
-        name2.innerText = "Monk Strap"
+        name1.textContent = "Monk Strap"
+        name2.textContent = "Monk Strap"
     }
     else if(i===2){
-        name1.innerText = "Loafer"
-        name2.innerText = "Loafer"
+        name1.textContent = "Loafer"
+        name2.textContent = "Loafer"
     }
     else if (i===3){
-        name1.innerText = "Brogue"
-        name2.innerText = "Brogue"
+        name1.textContent = "Brogue"
+        name2.textContent = "Brogue"
     }
     else if (i===0){
-        name1.innerText = "Oxfords"
-        name2.innerText = "Oxfords"
+        name1.textContent = "Oxfords"
+        name2.textContent = "Oxfords"
     }
 }

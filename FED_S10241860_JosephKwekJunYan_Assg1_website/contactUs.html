@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Image/Logo.png">
     <title>TheRoyales</title>
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Eagle+Lake&family=Inter&family=Lato:ital,wght@1,700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -23,7 +26,7 @@
         <a href="contactUs.html">Contact Us</a>
     </nav>
 
-    <div style="background-image: url(Image/wood-background.jpg); height: 650px;">
+    <div id="background"> 
         
         <form id="contact">
             <h2>Enter Your Details</h2>
@@ -49,12 +52,12 @@
                 <input type="radio" name="gender" class="radio" >
             </label>
             <label id="female">
-                Female
+                Female  
                 <input type="radio" name="gender" class="radio">
             </label>
             <br><br>
             <label>
-                <textarea name=""cols="50" rows="10" placeholder="Enter text here"></textarea>
+                <textarea name="message" cols="50" rows="10" placeholder="Enter message here"></textarea>
             </label>
             <br><br>
             <button type="submit">Send</button>

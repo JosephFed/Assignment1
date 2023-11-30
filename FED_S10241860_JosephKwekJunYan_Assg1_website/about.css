@@ -1,0 +1,41 @@
+/*Style for about Us*/
+#story{
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+}
+
+.container{
+    background-color: rgb(255, 215, 0);
+    border-radius: 10px;
+}
+
+#awards{
+    margin-left: 10%;
+    width: 80%;
+    font-family: 'Inter', sans-serif;
+}
+
+.container p{
+    text-align: center;
+    width: 800px;
+    padding-left: 10%;
+
+}
+
+.container h3{
+    text-align: end;
+    padding-right: 10px;
+}
+
+@media screen and (max-width:425px){
+    #story{
+        width: auto;
+    }
+
+    .container p{
+        width: auto;
+        padding: 10px;
+    }
+}

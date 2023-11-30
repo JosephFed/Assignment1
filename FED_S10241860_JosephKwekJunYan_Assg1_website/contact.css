@@ -1,0 +1,33 @@
+/* Style for contact Us */
+#background{
+    background-image: url(Image/wood-background.jpg); 
+    height: 650px;
+}
+
+#contact{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 600px;
+    background-color: rgba(169, 169, 169, 0.4);
+    text-align: center;
+    position: relative;
+    left: 28%;
+    top: 20px;
+    border: 0.1px solid;
+}
+
+@media screen and (max-width:425px){
+    #contact{
+        width: 80%;
+        left: 10%;
+    }
+
+    #background{
+        height: 570px;
+    }
+
+    textarea{
+        width: 250px;
+        height: 100px;
+    }
+}
