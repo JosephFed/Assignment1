@@ -16,6 +16,7 @@
     border: 0.1px solid;
 }
 
+/* Media query for mobile L (425px width) */
 @media screen and (max-width:425px){
     #contact{
         width: 80%;

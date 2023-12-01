@@ -47,6 +47,7 @@
     font-size: 80px;
 }
 
+/* Media query for mobile L (425px width) */
 @media screen and (max-width:425px){
     #section1 img{
         height: 200px;

@@ -45,6 +45,7 @@
     background-color: green;
 }
 
+/* Media query for mobile L (425px width) */
 @media screen and (max-width:425px){
     .product{
         padding: 0px;

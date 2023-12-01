@@ -11,17 +11,21 @@ Website Design (**Formal/Dress Shoe website**)
 * ourProduct.html
 * aboutUs.html
 * contactUs.html
+<br>
 
 * style.css
 * index.css
 * product.css
 * about.css
 * contact.css
+<br>
+
+* script.js
 
 
 ## Folder
 * Image
-    * ###Contains 6 images
+    * ### Contains 6 images
     1. Logo image
     2. Shoe collection image for home page section 1
     3. 4 different type of dress shoes (Oxford, Monkstrap, Loafers, Brogues)

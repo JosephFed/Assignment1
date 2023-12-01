@@ -4,15 +4,16 @@ imageArray[1] = "Image/black-monk-strap.jpg";
 imageArray[2] = "Image/Penny-Loafer.jpg";
 imageArray[3] = "Image/brogue.jpeg";
 
+//Getting current image on home/index page
 let myImg = document.getElementById("change");
 
+//Getting the current shoe name text on home/index page
 let name1 = document.getElementById("name1");
 let name2 = document.getElementById("name2");
 
-
 let i = 0;
 
-//This function will make change image every 2.5seconds and will display correct shoe name
+//This function will change image every 2.5 seconds and will display the correct shoe name
 setInterval(autoImg,2500);
 
 function autoImg(){
