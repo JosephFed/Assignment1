@@ -28,12 +28,12 @@ Website Design (**Formal/Dress Shoe website**)
 
 
 ## Folder
-* Image
-    * ### Contains 6 images
-        1. Logo image
-        2. Shoe collection image for home page section 1
-        . 4 different type of dress shoes (Oxford, Monkstrap, Loafers, Brogues)
-        4. Wooden background image for form page
+* Image 
+    ### Contains 6 images
+    1. Logo image
+    2. Shoe collection image for home page section 1
+    3. 4 different type of dress shoes (Oxford, Monkstrap, Loafers, Brogues)
+    4. Wooden background image for form page
 ### Idea
 1. All webpage
     * Has header to welcome users and contains the logo
@@ -53,28 +53,24 @@ Website Design (**Formal/Dress Shoe website**)
 
 
 ## References
-Homepage photo: 
+Homepage photo:
+<br>
+
 Link: https://citynomads.com/shoes-for-the-classy-male-nomad-2/ 
-Date: UPDATED AUGUST 21ST, 2023
-Author: Christy Heah
 
 Product page: 
-OXFORD/BROGUES
+<br>
+
+1. OXFORD/BROGUES
 Link: https://www.cheaney.co.uk/blog/oxfords-vs-brogues-a-guide/
-Date: June 23, 2021
-Author: Cheaney Shoes
 
-MONKSTRAP
+2. MONKSTRAP
 Link: https://www.suitsexpert.com/blog/how-to-wear-monk-strap-shoes/
-Date: n.d.
-Author: Alexander Stoicoff
 
-LOAFERS
+3. LOAFERS
 Link:https://manofmany.com/fashion/mens-fashion-advice/types-of-mens-loafers
-Date:30 Oct 2023
-Author: Jacob Osborn / Paul Smith
 
 Contact Us page:
+<br>
+
 Link: https://wallpapers.com/high-resolution-wood-background
-Date: n.d.
-Author: 
